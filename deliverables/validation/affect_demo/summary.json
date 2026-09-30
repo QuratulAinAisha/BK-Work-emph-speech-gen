@@ -1,0 +1,68 @@
+{
+  "mode": "synthetic_demo",
+  "untrained_components": [
+    "affective_transport",
+    "speaker_encoder_and_fusion"
+  ],
+  "quality_note": "Structural check only; random weights do not predict meaningful empathy.",
+  "training_performed": false,
+  "checkpoint": null,
+  "sbe_checkpoint": null,
+  "context_frame_hz": 25.0,
+  "affect_shape": [
+    2,
+    11,
+    6
+  ],
+  "valid_lengths": [
+    11,
+    7
+  ],
+  "feature_names": [
+    "valence",
+    "arousal",
+    "pitch",
+    "energy",
+    "speaking_rate",
+    "dominance"
+  ],
+  "feature_ranges": {
+    "valence": [
+      -1.0,
+      1.0
+    ],
+    "arousal": [
+      0.0,
+      1.0
+    ],
+    "pitch": [
+      0.0,
+      1.0
+    ],
+    "energy": [
+      0.0,
+      1.0
+    ],
+    "speaking_rate": [
+      0.0,
+      1.0
+    ],
+    "dominance": [
+      0.0,
+      1.0
+    ]
+  },
+  "units": "normalized controls; pitch/energy/speaking_rate are not Hz/dB/syllables per second",
+  "config": {
+    "context_dim": 512,
+    "emotion_dim": 25,
+    "hidden_dim": 128,
+    "num_heads": 4,
+    "num_layers": 2,
+    "feedforward_dim": 256,
+    "dropout": 0.1
+  },
+  "parameter_count": 336312,
+  "seed": 42,
+  "torch_version": "2.14.0+cpu"
+}

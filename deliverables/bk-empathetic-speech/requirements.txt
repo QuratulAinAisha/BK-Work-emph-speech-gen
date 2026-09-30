@@ -1,0 +1,2 @@
+# Main speech environment. / 기본 음성 실행 환경.
+-r requirements/full_speech.txt

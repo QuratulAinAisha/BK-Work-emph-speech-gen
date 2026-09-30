@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-30",
+  "test_suite": {
+    "run": 281,
+    "passed": 278,
+    "skipped": 3,
+    "failed": 0,
+    "seconds": 48.855,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "compiled_python_files": 186,
+  "cli_help_checks": [
+    {
+      "entry": "infer_affect.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "infer_full.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "infer_quality.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train_full.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train_quality.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "train_recovery.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "prepare_full.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "prepare_quality.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "scripts/train_planner_ar.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "scripts/build_bk_source.py",
+      "exit_code": 0
+    },
+    {
+      "entry": "scripts/fit_speech_units.py",
+      "exit_code": 0
+    }
+  ],
+  "synthetic_affect_demo_exit": 0,
+  "current_experiment_source_hashes_match": {
+    "scripts/train_planner_ar.py": true,
+    "model/full_speech/experimental_ar_units.py": true,
+    "model/full_speech/dit.py": true,
+    "model/full_speech/units.py": true,
+    "model/full_speech/quality.py": true,
+    "model/full_speech/tensor_ops.py": true,
+    "dataset/quality_speech_dataset.py": true
+  },
+  "python_source_byte_identical_to_workspace": true,
+  "private_pattern_scan": "no matches in release text files",
+  "network_downloads_used_for_release_checks": false,
+  "gpu_training_started": false,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.0+cpu",
+    "transformers": "4.44.2",
+    "numpy": "2.3.5",
+    "einops": "0.8.2",
+    "soundfile": "0.14.0",
+    "scipy": "1.18.1"
+  }
+}

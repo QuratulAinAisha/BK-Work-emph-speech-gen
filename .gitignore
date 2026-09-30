@@ -1,0 +1,35 @@
+# 1. Model Checkpoints & Weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# 2. Datasets & Logs (비디오 데이터셋, 실험 로그)
+data/
+datasets/
+logs/
+log/
+runs/
+wandb/
+
+# 3. Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+.env
+
+# Integrated baseline runtime artifacts
+outputs/
+
+# Presentation/documentation is kept outside this code-only project
+docs/
+
+# 4. OS Generated Files
+.DS_Store
+Thumbs.db
+tmp/

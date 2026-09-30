@@ -1,0 +1,26 @@
+{
+  "records": [
+    {
+      "conversation_id": "conversation_001",
+      "split": "train",
+      "mel": "features/conversation_001_A_mel.pt",
+      "dmm": "features/conversation_001_A_3dmm.npy",
+      "au": "features/conversation_001_A_au.npy",
+      "response_audio": "audio/conversation_001_B.wav",
+      "affect": "labels/conversation_001_B_affect.npy",
+      "style_id": 0,
+      "speaker_id": 0
+    },
+    {
+      "conversation_id": "conversation_002",
+      "split": "val",
+      "mel": "features/conversation_002_A_mel.pt",
+      "dmm": "features/conversation_002_A_3dmm.npy",
+      "au": "features/conversation_002_A_au.npy",
+      "response_audio": "audio/conversation_002_B.wav",
+      "affect": "labels/conversation_002_B_affect.npy",
+      "style_id": 5,
+      "speaker_id": 0
+    }
+  ]
+}

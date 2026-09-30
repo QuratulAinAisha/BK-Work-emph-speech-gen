@@ -1,0 +1,12 @@
+{
+  "sbe": {"dmm_dim": 486, "app_num_layers": 1, "app_mlp_dim": 128, "app_max_len": 2000},
+  "hidden_dim": 64,
+  "num_heads": 4,
+  "planner_layers": 1,
+  "decoder_layers": 1,
+  "affect_hidden_dim": 32,
+  "affect_layers": 1,
+  "semantic_steps": 4,
+  "codec_steps": 4,
+  "max_duration": 3.0
+}

@@ -1,0 +1,7 @@
+{
+  "acoustic_epochs": 1,
+  "semantic_epochs": 1,
+  "mix_ramp_epochs": 1,
+  "predicted_semantic_steps": 4,
+  "acoustic_loss_every": 2
+}
